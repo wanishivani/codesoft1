@@ -1,0 +1,45 @@
+
+
+
+.App {
+  background-image: url(../public/assets/img/wow.jpg);
+  background-size:contain;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+}
+
+.card{
+background-color:white ;
+opacity: 0.6; 
+width: 60%;
+border-radius:10px;
+color:black;
+padding: 2%;
+box-shadow: 10px 10px 5px lightblue;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+cursor: pointer;
+}
+.button{
+  font-size: 40px;
+  background-color: coral;
+  color: black;
+  border-radius: 15px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.qoute{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+  border-radius: 15px,wheat;
+  background-color:wheat;
+color:maroon;
+
+}
